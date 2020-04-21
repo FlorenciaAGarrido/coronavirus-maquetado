@@ -1,0 +1,125 @@
+body {
+    background: rgb(216, 238, 237);
+    padding: 0;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#nav {
+    padding-left: 15px;
+    
+    width: 100%;
+    background-color: rgb(91, 172, 168);
+    position:fixed;    
+}
+
+#nav img {
+    padding: 0;
+    width: 8%;
+    float: inline-start;
+}
+#nav ul {
+    display: inline-flex;
+    list-style:none;
+}
+
+#nav li a {
+    font-size: 20px;
+    text-decoration: none;
+    float: left;
+    padding: 20px;
+    background-color: rgb(91, 172, 168);
+    color: black;
+}
+
+
+#nav li .item-nav:hover {
+    background-color: white;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+#header {
+    background: rgb(110, 103, 103);
+    padding-top: 20%;
+    padding-bottom: 20% ;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+#main {
+    text-align: center;
+    padding: 5%;
+    padding-left: 20%;
+    padding-right: 20%;  
+}
+
+#main section {
+    padding: 20px;
+    margin: 20px;
+}
+#main section h1{
+    font-size: 30px;
+}
+
+#main .div-img {
+    background-color: rgb(91, 172, 168);
+    width: 100%;
+    font-size: 12px;
+}
+
+img { 
+    width: 50%;
+    padding: 5px;
+}
+
+#main p { 
+    line-height: 23px;
+}
+
+footer ul {
+
+    list-style:none;
+}
+
+footer img {
+    width: 20%;
+    text-align: center;
+}
+
+#prevencion li {
+    LINE-HEIGHT:25px;
+    
+}
+
+#Propagacion ul {
+    display: inline-flex;
+    list-style:none;
+    width: 50%;
+   
+}
+
+.propagacionmundialyargentina { 
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+span {
+    padding: 10px;
+}
+
+table {
+    background-color: rgb(91, 172, 168);
+    display: block;
+    width: 100%;
+    height: 50%;
+    padding: 1em;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.td-muertes {
+    color: brown;
+}
